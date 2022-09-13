@@ -3,6 +3,8 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Models\Mahasiswa;
+use App\Controllers\MahasiswaController;
 
 class Pages extends BaseController
 {
@@ -23,4 +25,7 @@ class Pages extends BaseController
             . view('pages/' . $page)
             . view('templates/footer');
     }
+    public function mahasiswa(){
+       
+      }
 }
