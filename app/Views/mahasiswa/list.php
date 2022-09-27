@@ -1,3 +1,5 @@
+<?= $this->extend('template')?>
+<?= $this->section('content')?>
 <a type="button" class="btn btn-primary mb-3" href="/create">Tambah</a>
 <table class="table">
     <thead>
@@ -30,3 +32,4 @@
         <?php $no++; endforeach ?>
     </tbody>
 </table>
+<?= $this->endSection()?>

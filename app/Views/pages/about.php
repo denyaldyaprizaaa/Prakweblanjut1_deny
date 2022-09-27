@@ -1,2 +1,4 @@
+<?= $this->extend('template')?>
+<?= $this->section('content')?>
 <p>Deny aldy apriza 2017051039</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quos quas expedita sed iusto unde corrupti quam commodi facere, autem suscipit amet quod aspernatur? Fugiat ullam libero dolorum aperiam laborum.</p>
+<?= $this->endSection()?>
